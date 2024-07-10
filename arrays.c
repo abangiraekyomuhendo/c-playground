@@ -1,9 +1,14 @@
+/*Author: Abangira
+Topic: Arrays in called
+*/
+
 # include studio.h>
 
 int main () {
     /*
     Syntax
-    datatype arrayName[arraySize]*/
+    datatype arrayName[arraySize]
+    */
 
     int age[5];
 
