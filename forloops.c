@@ -16,7 +16,7 @@ for (intializationExpression; testExpression; updateExpression) {
 #include <stdio.h>
 
 int main () {
-
+    //Practical examples (Based off of YouTube)
     int sum = 0;
     for (int i = 1; i < 3; i++) {
         sum = sum + i;
@@ -33,8 +33,9 @@ int main () {
         printf("%d ", i);
     }
 
-
-    //Practical examples (Based off of YouTube)
-    //find the sum of all numbers from 1 - 100
     return 0;
+
+    //Practical examples (personal examples)
+
+    
 }
