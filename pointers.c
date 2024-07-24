@@ -26,6 +26,8 @@ int main () {
 
      printf("Value: %d", *ptr);
     //How to assign value to a pointer variable
+    int 
+    int * pointera = 
 
 
     return 0;
