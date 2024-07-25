@@ -16,5 +16,7 @@ int main () {
     printf("Happy birthday to you!\n");
     printf("Happy birthday dear Precious!\n");
     printf("Happy birthday to you!");
+
+    /*But, let's utilize functions now: */
     return 0;
 }
