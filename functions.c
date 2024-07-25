@@ -3,12 +3,17 @@
 A function is a small section of code that is executed when we call it. 
 */
 
+
 /*
 So, let's say you wanto sing "happy birthday" copying and pasting the same line of code because it is not good practice.
 */
 
 #include <stdio.h>
 
+//creating the function
+void birthday () {
+
+}
 
 
 int main () {
