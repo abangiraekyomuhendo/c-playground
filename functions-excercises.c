@@ -1,5 +1,7 @@
 //Just a list of practice questions to help me master functions in C
 
+#include <stdio.h>
+
 /* 
 Exercise 1: Hello World Function
 Create a function that prints "Hello, World!" to the console. Call this function from your main function. */
@@ -10,6 +12,8 @@ void helloWorld() {
 
 /*Exercise 2: Add Two Numbers
 Write a function that takes two integers as input and returns their sum. In your main function, call this function with two numbers and print the result.
+
+
 
 Exercise 3: Find the Maximum of Two Numbers
 Write a function that takes two integers and returns the larger of the two. Use this function in your main function to find and print the maximum of two given numbers.
@@ -28,13 +32,11 @@ Write a function that takes a string and returns the number of vowels in it. Use
 
 These exercises will help you practice defining and using functions, passing arguments, and handling different data types.*/
 
-#include <stdio.h>
-
 //Declaration and Definition of functions
 
 int main() {
     //Excercise one:
     helloWorld();
-    
+
     return 0;
 }
