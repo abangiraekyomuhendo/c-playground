@@ -11,7 +11,10 @@ So, let's say you wanto sing "happy birthday" copying and pasting the same line 
 int main () {
 
     /*Technically, you could do it this way: */
-    
 
+    printf("Happy birthday to you!\n");
+    printf("Happy birthday to you!\n");
+    printf("Happy birthday dear Precious!\n");
+    printf("Happy birthday to you!");
     return 0;
 }
