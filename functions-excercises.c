@@ -10,7 +10,7 @@ void helloWorld() {
     printf("Hello World!");
 }
 
-/*Exercise 2: Add Two Numbers
+/*Exercise 2: Add, Divide, Multiply, and find the Modulus of Two Numbers
 Write a function that takes two integers as input and returns their sum. In your main function, call this function with two numbers and print the result.*/
 
 int add(int a, int b) {
@@ -19,6 +19,14 @@ int add(int a, int b) {
 
 int multiply(int c, int d) {
     return c * d;
+}
+
+int division(int e, int f) {
+    return e / f;
+}
+
+int modulus(int g, int h) {
+    return g % h;
 }
 
 
@@ -88,7 +96,40 @@ int main() {
 
 
     // ******** Division ********
+    int e, f, quotient;
+    // quotient = division(8,4);
+    // printf("Quotient is: %d", quotient);
 
+    //Add user input
+   /* printf("Value one: ");
+    scanf("%d", &e);
+
+    printf("Value one: ");
+    scanf("%d", &f);
+
+    quotient = division(e, f);
+    printf("Quotient is: %d", quotient);*/ //it works too!
+
+
+    // ******** Modulus ********
+    int g, h, mod_result;
+    // mod_result = modulus(7, 6);
+    // printf("Modulus of 7 and 6 is: %d", mod_result);
+
+    //Add user input
+
+    /* 
+    printf("Value a: ");
+    scanf("%d", &g);
+
+    printf("Value b: ");
+    scanf("%d", &h);
+
+    mod_result = modulus(g, h);
+    printf("Modulus is: %d", mod_result);*/ //it works
+
+
+    
 
     
 
