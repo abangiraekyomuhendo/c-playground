@@ -44,9 +44,19 @@ int maximum(int i, int j){ //here we are going to use the if-else statament.
 
 
 /*Exercise 4: Check Even or Odd
-Create a function that takes an integer as input and prints whether it is even or odd. Call this function from your main function with a test number.
+Create a function that takes an integer as input and prints whether it is even or odd. Call this function from your main function with a test number.*/
 
-Exercise 5: Calculate Factorial
+int evenOdd(int number){
+    if(number % 2 == 0) {
+        printf("Even");
+    }else {
+        printf("Odd");
+    }
+    return 0;
+}
+
+
+/* Exercise 5: Calculate Factorial
 Write a function that calculates the factorial of a non-negative integer. Use this function in your main function to find and print the factorial of a given number.
 
 Exercise 6: Reverse a String
@@ -154,10 +164,15 @@ int main() {
     max = maximum(i,j);
     printf("The larger number between the two is: %d", max);*/ //It works!
     
-    
+    //Excercise Four
+
+    /*Exercise 4: Check Even or Odd
+Create a function that takes an integer as input and prints whether it is even or odd. Call this function from your main function with a test number.*/
+    int number;
+    printf("Enter any number: ");
+    scanf("%d", &number);
+
+    evenOdd(number);
 
     return 0;
-
-
-    
 }
