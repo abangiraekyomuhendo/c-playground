@@ -32,9 +32,18 @@ int modulus(int g, int h) {
 
 
 /*Exercise 3: Find the Maximum of Two Numbers
-Write a function that takes two integers and returns the larger of the two. Use this function in your main function to find and print the maximum of two given numbers.
+Write a function that takes two integers and returns the larger of the two. Use this function in your main function to find and print the maximum of two given numbers. */
 
-Exercise 4: Check Even or Odd
+int maximum(int i, int j){ //here we are going to use the if-else statament. 
+    if (i > j) {
+        return i;
+    } else {
+        return j;
+    }
+}
+
+
+/*Exercise 4: Check Even or Odd
 Create a function that takes an integer as input and prints whether it is even or odd. Call this function from your main function with a test number.
 
 Exercise 5: Calculate Factorial
@@ -96,7 +105,7 @@ int main() {
 
 
     // ******** Division ********
-    int e, f, quotient;
+    // int e, f, quotient;
     // quotient = division(8,4);
     // printf("Quotient is: %d", quotient);
 
@@ -112,7 +121,7 @@ int main() {
 
 
     // ******** Modulus ********
-    int g, h, mod_result;
+    // int g, h, mod_result;
     // mod_result = modulus(7, 6);
     // printf("Modulus of 7 and 6 is: %d", mod_result);
 
@@ -130,7 +139,21 @@ int main() {
 
 
     
+    //Excercise Three
+    int i, j, max;
+    // max = maximum (4,6);
+    // printf("Between 4 and 6, the bigger number is: %d", max);
 
+    //Let's add user input:
+    /*
+    printf("Enter value one: ");
+    scanf("%d", &i);
+    printf("Enter value two: ");
+    scanf("%d", &j);
+
+    max = maximum(i,j);
+    printf("The larger number between the two is: %d", max);*/ //It works!
+    
     
 
     return 0;
