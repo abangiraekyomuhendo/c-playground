@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    // //data types being decalred and named
+    // //data types being declared and named
     // int event; 
     // char heat;
     // float time;
@@ -33,11 +33,22 @@ int main() {
     We add a "." followed by a value to indicate the number decimal point to print.
     */
 
-   float roundOff = 5.867472;
+//    float roundOff = 5.867472;
 
-   printf("Round off to one decimal point: %.1f\n", roundOff);
-   printf("Round off to two decimal points: %.2f\n", roundOff);
-   printf("Round off to three decimal points: %.3f\n", roundOff);
+//    printf("Round off to one decimal point: %.1f\n", roundOff);
+//    printf("Round off to two decimal points: %.2f\n", roundOff);
+//    printf("Round off to three decimal points: %.3f\n", roundOff);
+
+    //shorter scanf methods
+    int event;
+    char heat;
+    float time;
+
+    printf("Enter the event number, heat letter, and time: ");
+    scanf("%d %c %f", &event, &heat, &time);
+
+    printf("The winning time in heat %c of event %d was %f\n", heat, event, time);
+    // printf("of event %d was %f\n", event, time);
 
     return 0;
 }
